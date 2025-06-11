@@ -135,7 +135,6 @@ pysmiles==1.1.2
 PySocks==1.7.1
 python-dateutil==2.9.0.post0
 pytz==2024.1
-pypiwin32
 pywin32-ctypes==0.2.3
 PyYAML==6.0.1
 pyyaml_env_tag==0.1
@@ -167,7 +166,7 @@ sphinxcontrib-qthelp==2.0.0
 sphinxcontrib-serializinghtml==2.0.0
 SQLAlchemy==2.0.36
 stack-data==0.6.3
-sympy==1.13.3
+sympy==1.13.1
 tabulate==0.9.0
 threadpoolctl==3.5.0
 tifffile==2024.8.30
