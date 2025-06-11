@@ -135,7 +135,7 @@ pysmiles==1.1.2
 PySocks==1.7.1
 python-dateutil==2.9.0.post0
 pytz==2024.1
-pywin32==308
+pypiwin32
 pywin32-ctypes==0.2.3
 PyYAML==6.0.1
 pyyaml_env_tag==0.1
