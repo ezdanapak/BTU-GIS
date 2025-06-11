@@ -87,28 +87,28 @@ nav:
   - მთავარი: index.md
   - საინფორმაციო ტექნოლოგიები (IT):
     - გეოინფორმაციული სისტემები (GIS):
-      - About: ICS_GIS/Instructor.md
-      - Instructor: ICS_GIS/Instructor.md
-      - Syllabus: ICS_GIS/Syllabus.md
-      - Schedule: ICS_GIS/Schedule.md
+      - შესახებ: ICS_GIS/Instructor.md
+      - ლექტორი: ICS_GIS/Instructor.md
+      - სილაბუსი: ICS_GIS/Syllabus.md
+      - განრიგი: ICS_GIS/Schedule.md
       - Textbooks: ICS_GIS/Textbooks.md
-      - Videos: ICS_GIS/Videos.md
+      - ვიდეოები: ICS_GIS/Videos.md
       - Acknowledgments: ICS_GIS/Acknowledgments.md
-      - Info: ICS_GIS/Info.md
-      - Another staff: ICS_GIS/Another_staff.md
-      - Presentations: ICS_GIS/Presentations.md
-      - Copyright: ICS_GIS/Copyright_Disclaimer.md
-      - Exam: ICS_GIS/Exam.md
-      - Software Tools:
-        - ArcGIS: ICS_GIS/Software/ArcGIS.md
+      - ინფორმაცია: ICS_GIS/Info.md
+      - სხვადასხვა: ICS_GIS/Another_staff.md
+      - პრეზენტაციები: ICS_GIS/Presentations.md
+      - საავტორო უფლებები: ICS_GIS/Copyright_Disclaimer.md
+      - გამოცდა: ICS_GIS/Exam.md
+      - პროგრამები:
+        - QGIS: ICS_GIS/Software/ArcGIS.md
         - Google Earth: ICS_GIS/Software/GoogleEarth.md
-      - Theory:
+      - თეორია:
         - Topic 1: ICS_GIS/Theory/Topic_1.md
         - Topic 2: ICS_GIS/Theory/Topic_2.md
         - Map composition: ICS_GIS/Theory/Map_composition.md
         - Geodatabase: ICS_GIS/Theory/Geodatabase.md
         - Georeferencing: ICS_GIS/Theory/Georeferencing.md
-      - Labs:
+      - დავალებები:
         - Digitization: ICS_GIS/Lab/Digitization.md
         - GPS: ICS_GIS/Lab/GPS.md
         - Topology: ICS_GIS/Lab/Topology.md
