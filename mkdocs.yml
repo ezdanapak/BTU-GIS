@@ -87,7 +87,7 @@ nav:
   - მთავარი: index.md
   - საინფორმაციო ტექნოლოგიები (IT):
     - გეოინფორმაციული სისტემები (GIS):
-      - About: null  # დაამატე საჭირო ფაილი ან ამოიღე
+      - About: ICS_GIS/Instructor.md
       - Instructor: ICS_GIS/Instructor.md
       - Syllabus: ICS_GIS/Syllabus.md
       - Schedule: ICS_GIS/Schedule.md
