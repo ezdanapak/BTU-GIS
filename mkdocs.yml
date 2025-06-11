@@ -1,0 +1,158 @@
+---
+site_name: BTU GIS
+theme:
+  name: material
+  palette:
+    primary: deep purple
+    scheme: purple
+  features:
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tooltips
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+
+    logo: ./assets/images/logo.png
+    favicon: assets/favicon.ico
+
+    palette:
+      # Dark Mode
+      - scheme: slate
+        toggle:
+          icon: material/weather-sunny
+          name: Light mode
+        primary: green
+        accent: orange
+  
+      # Light Mode
+      - scheme: default
+        toggle:
+          icon: material/weather-night
+          name: Dark mode
+        primary: green
+        accent: deep orange
+
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+
+
+# Repository
+repo_name: BTU GIS
+repo_url: https://github.com/ezdanapak/BTU-GIS
+
+copyright: Copyright &copy; 2025 Giorgi Kapanadze
+
+markdown_extensions:
+  
+  
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - admonition
+  - pymdownx.details
+
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - მთავარი: index.md
+  - 'ICS - GIS':
+    - 'About':
+      - Instructor: './ICS_GIS/Instructor.md'
+      - Syllabus: './ICS_GIS/Syllabus.md'
+      - Schedule: './ICS_GIS/Schedule.md'
+      - Textbooks: './ICS_GIS/Textbooks.md'
+      - Videos: './ICS_GIS/Videos.md'
+      - Acknowledgments: './ICS_GIS/Acknowledgments.md'
+      - Info: './ICS_GIS/Info.md'
+      - Another staff: './ICS_GIS/Another_staff.md'
+      - Presentations: './ICS_GIS/Presentations.md'
+      - Copyright: './ICS_GIS/Copyright_Disclaimer.md'
+      - Exam: './ICS_GIS/Exam.md'
+      
+
+    - Software Tools:
+      - ArcGIS: './ICS_GIS/Software/ArcGIS.md'
+      - Google Earth: './ICS_GIS/Software/GoogleEarth.md'
+    - Theory:
+      - Topic 1: './ICS_GIS/Theory/Topic_1.md'
+      - Topic 2: './ICS_GIS/Theory/Topic_2.md'
+      - Map composition: './ICS_GIS/Theory/Map_composition.md'
+      - Geodatabase: './ICS_GIS/Theory/Geodatabase.md'
+
+      - Georeferencing: './ICS_GIS/Theory/Georeferencing.md'
+    - Labs:
+      - Digitization: './ICS_GIS/Lab/Digitization.md'
+      - GPS: './ICS_GIS/Lab/GPS.md'
+      - Topology: './ICS_GIS/Lab/Topology.md'
+      - DEM & TIN: './ICS_GIS/Lab/DEM_TIN.md'
+      - Geodatabase: './ICS_GIS/Lab/Geodatabase.md'
+      - Lab 6: './ICS_GIS/Lab/Lab_6.md'
+      - Terrain analysis: './ICS_GIS/Lab/Terrain_analysis.md'
+      - Georeference : './ICS_GIS/Lab/Georeference.md'
+      - Lab 9: './ICS_GIS/Lab/Lab_9.md'
+      - Hydrological analysis: './ICS_GIS/Lab/Hydrological_analysis.md'
+      - Lab 11: './ICS_GIS/Lab/Lab_11.md'
+      - Lab 12: './ICS_GIS/Lab/Lab_12.md'
+      - Lab 13: './ICS_GIS/Lab/Lab_13.md'
+      - Lab 14: './ICS_GIS/Lab/Lab_14.md'
+      - Lab 15: './ICS_GIS/Lab/Lab_15.md'
+  - 'ASBE - GIS': 
+    - Info: './ASBE_GIS/Info.md'
+  - 'SMD - GIS': 
+    - Info: './SMD_GIS/Info.md'
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+plugins:
+  - search
+ # - glightbox
